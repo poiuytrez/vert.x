@@ -387,6 +387,10 @@ Set whether all server certificates should be trusted
 +++
 Set the trust options in jks format, aka Java trustore
 +++
+|[[useAlpn]]`useAlpn`|`Boolean`|
++++
+Set the ALPN usage.
++++
 |[[usePooledBuffers]]`usePooledBuffers`|`Boolean`|
 +++
 Set whether Netty pooled buffers are enabled
@@ -616,6 +620,10 @@ Set the value of traffic class
 +++
 Set the trust options in jks format, aka Java trustore
 +++
+|[[useAlpn]]`useAlpn`|`Boolean`|
++++
+Set the ALPN usage.
++++
 |[[usePooledBuffers]]`usePooledBuffers`|`Boolean`|
 +++
 Set whether Netty pooled buffers are enabled
@@ -733,6 +741,10 @@ Set whether all server certificates should be trusted
 |[[trustStoreOptions]]`trustStoreOptions`|`link:dataobjects.html#JksOptions[JksOptions]`|
 +++
 Set the trust options in jks format, aka Java trustore
++++
+|[[useAlpn]]`useAlpn`|`Boolean`|
++++
+Set the ALPN usage.
 +++
 |[[usePooledBuffers]]`usePooledBuffers`|`Boolean`|
 +++
@@ -988,6 +1000,10 @@ Set the value of traffic class
 +++
 Set the trust options in jks format, aka Java trustore
 +++
+|[[useAlpn]]`useAlpn`|`Boolean`|
++++
+Set the ALPN usage.
++++
 |[[usePooledBuffers]]`usePooledBuffers`|`Boolean`|
 +++
 Set whether Netty pooled buffers are enabled
@@ -1182,6 +1198,10 @@ Set the trust options in jks format, aka Java trustore
 +++
 Set whether compression is enabled
 +++
+|[[useAlpn]]`useAlpn`|`Boolean`|
++++
+Set the ALPN usage.
++++
 |[[usePooledBuffers]]`usePooledBuffers`|`Boolean`|
 +++
 Set whether Netty pooled buffers are enabled
@@ -1326,6 +1346,10 @@ Set the value of traffic class
 |[[trustStoreOptions]]`trustStoreOptions`|`link:dataobjects.html#JksOptions[JksOptions]`|
 +++
 Set the trust options in jks format, aka Java trustore
++++
+|[[useAlpn]]`useAlpn`|`Boolean`|
++++
+Set the ALPN usage.
 +++
 |[[usePooledBuffers]]`usePooledBuffers`|`Boolean`|
 +++
